@@ -1,0 +1,163 @@
+/* font related styles */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* nav-bar related styles */
+
+.nav-bar {
+    margin: 44.5px 134px 0px 134px;
+}
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.nav-bar ul {
+    list-style: none;
+}
+
+/* banner related styles */
+
+.hero-section {
+
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    display: flex;
+    
+}
+
+/* display flex related styles */
+.display-flex-colum-2{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    place-items: center;
+
+    margin-top: 104px;
+    margin-bottom: 104px;
+
+}
+
+.display-flex-colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 190px 238px 136px 238px;
+}
+.display-flex-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+.display-flex-3{
+
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    place-items: center;
+    text-align: center;
+}
+
+/* margin for the hero btn */
+
+.btn-margin {
+    margin-top: 20px;
+}
+
+/* color related styles */
+
+.anchor-fix > a:visited {
+    color: rgb(78, 71, 255);
+    
+}
+
+.gray-text{
+    color: rgba(37, 36, 50, 0.5);
+}
+
+
+/* font size related styles */
+.font-size-one{
+    font-size: 2.125rem;
+    font-weight: 800;
+}
+
+.font-size-two{
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+.action-text{
+    font-size: 2.625rem;
+    font-weight: 700;
+}
+
+
+.font-size-3{
+    font-size: 2.375rem;
+    font-weight: 600;
+}
+.action-big{
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(78, 71, 255);
+    font-family: inter;
+}
+
+
+/* button related styles */
+
+
+.btn-1 {
+    border: solid;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    padding: 12px 32.04px;
+    color: white;
+    font-size: 1rem;
+}
+.btn-1 > a{
+    text-decoration: none; 
+    color: white;
+    font-weight: 700;
+}
+
+/* img related styles */
+
+.web-flow-img > img {
+    border-radius: 48px;
+    height: 291px;
+    width: 358px;
+
+}
+
+/* box */
+
+#box{
+
+    border-radius: 24px;
+
+    background: rgba(78, 71, 255, 0.1);
+    padding: 44.5px 71.2px;
+    margin: 0 141px;
+}
