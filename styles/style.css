@@ -56,6 +56,14 @@
     margin-bottom: 104px;
 
 }
+.fix-update {
+    border-radius: 14px;
+
+    background: rgb(255, 255, 255);
+
+    width: 1014px;
+    height: 620px;
+}
 
 .margin-one {
     display: grid;
@@ -74,6 +82,18 @@
 
     margin: 190px 238px 136px 238px;
 }
+
+.display-flex-colum-fix {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 190px 238px 136px 125px;
+}
+
 .display-flex-colum-foot {
     
     display: flex;
