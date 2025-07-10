@@ -44,6 +44,7 @@
 
 /* display flex related styles */
 .display-flex-colum-2{
+    
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     /* justify-content: center; */
@@ -63,6 +64,7 @@
 
 
 .display-flex-colum {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,6 +72,29 @@
     text-align: center;
 
     margin: 190px 238px 136px 238px;
+}
+.display-flex-colum-foot {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 190px 238px 136px 238px;
+}
+.display-flex-colum-foot li{
+   
+    list-style: none;
+}
+.display-flexing {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+   
+}
+
+.text-dec-none{
+     text-decoration: none;
 }
 .display-flex-1 {
     display: grid;
@@ -127,12 +152,12 @@
     display: grid;
     grid-template-columns: repeat(2, 2fr);
 
-    /* justify-content: center; */
     place-items: center;
     justify-items: center;
     align-items: center;
 
     margin-left: 133.5px;
+    margin-bottom: 50px;
     margin-right: 133.5px;
 }
 
@@ -153,6 +178,8 @@
 }
 
 /* font size related styles */
+
+
 .font-size-one{
     font-size: 2.125rem;
     font-weight: 800;
@@ -185,6 +212,14 @@
     font-weight: 600;
     /* margin-left: 133.5px; */
 }
+.font-size-6{
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: rgb(78, 71, 255);
+}
+
+
+/* input related styles */
 .text-input {
     font-size: 1.125rem;
 }
