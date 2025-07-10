@@ -193,6 +193,11 @@
 
 }
 
+.img-radius-2 > img{
+    border-radius: 48px;
+    margin-top: 30px;
+}
+
 /* box */
 
 #box{
