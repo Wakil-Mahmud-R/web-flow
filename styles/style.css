@@ -81,7 +81,7 @@
     align-items: center;
     text-align: center;
 
-    margin: 190px 238px 136px 238px;
+    /* margin: 190px 238px 136px 238px; */
 }
 .display-flex-colum-foot li{
    
@@ -162,7 +162,15 @@
 }
 
 /* color related styles */
+.sec-bag{
+    background-color: rgb(245, 248, 255);
+}
+#foot-bag{
+    background-color: white;
+    padding: 130px 238px 130px 238px;
+    /* margin: 190px 238px 136px 238px; */
 
+}
 .anchor-fix > a:visited {
     color: rgb(78, 71, 255);
     
@@ -280,11 +288,29 @@ textarea {
     color: white;
     font-size: 1rem;
 }
+.btn-2 {
+    width: 442.33px;
+    border: solid;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    padding: 12px 32.04px;
+    color: white;
+    font-size: 1rem;
+}
+
 .btn-1 > a{
     text-decoration: none; 
     color: white;
     font-weight: 700;
 }
+
+
+.btn-2 > a{
+    text-decoration: none; 
+    color: white;
+    font-weight: 700;
+}
+
 
 /* img related styles */
 
