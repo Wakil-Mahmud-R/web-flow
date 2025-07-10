@@ -46,6 +46,7 @@
 .display-flex-colum-2{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+    /* justify-content: center; */
     align-items: center;
     place-items: center;
 
@@ -53,6 +54,13 @@
     margin-bottom: 104px;
 
 }
+
+.margin-one {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    /* margin: o auto; */
+}
+
 
 .display-flex-colum {
     display: flex;
@@ -115,6 +123,19 @@
     margin-top: 20px;
 }
 
+.margin-fix {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+
+    /* justify-content: center; */
+    place-items: center;
+    justify-items: center;
+    align-items: center;
+
+    margin-left: 133.5px;
+    margin-right: 133.5px;
+}
+
 /* color related styles */
 
 .anchor-fix > a:visited {
@@ -158,6 +179,52 @@
     font-weight: 600;
     margin-top: 20px;
 }
+.font-size-5{
+    
+    font-size: 5.39rem;
+    font-weight: 600;
+    /* margin-left: 133.5px; */
+}
+.text-input {
+    font-size: 1.125rem;
+}
+
+input {
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+
+    background: rgb(255, 255, 255);
+
+}
+input[type="text"], input[type="email"] {
+
+
+    width: 442.33px;        
+    height: 62.3px;   
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 25px;         
+    font-size: 1.25rem;
+
+
+}
+textarea {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    max-width: 442.33px;
+
+    padding: 30px;
+    margin: 15px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+
+    background: rgb(255, 255, 255);
+}
+
 
 .action-big{
     font-size: 5rem;
